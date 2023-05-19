@@ -58,4 +58,22 @@ header {
 
 .menu li a:hover, .menu .active a {
     border-bottom: 5px solid #B28756;
+    color: #CCCCCC;
+}
+
+ main .container {
+    max-width: none;
+    height: calc(100vh - 100px); /*100px do header*/
+    background-color: #333333;
+    background-image: url(../images/backgrounds/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.sliders {
+    
+}
+
+.slide {
+    
 }
