@@ -44,7 +44,7 @@ header {
     display: flex;
 }
 
-.menu li a{ 
+.menu li a { 
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 600;
@@ -61,19 +61,82 @@ header {
     color: #CCCCCC;
 }
 
- main .container {
-    max-width: none;
+ main .banner {
     height: calc(100vh - 100px); /*100px do header*/
     background-color: #333333;
     background-image: url(../images/backgrounds/bg.jpg);
     background-size: cover;
     background-position: bottom;
+    overflow: hidden; /*esconde tudo o que passar (remove as barras de rolagem)*/
 }
 
-.sliders {
-    
+.banner .sliders {
+    width: 1000vw;/*suporte para 10 slides*/
+    height: 100%;
 }
 
-.slide {
-    
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.banner .slideArea {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+
+.banner .slideArea h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner h1 span {
+    color: #B28756;
+    display: flex;
+    justify-content: center;
+}
+
+.banner h2 {
+    margin-top: 20px;
+}
+
+.banner a {
+    display: block;
+    background-color: #B28756;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.banner .slidersPointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.banner .pointer.active { /*se tiver as 2 classes aplica os efetios*/
+    background-color: #B28756;
 }
