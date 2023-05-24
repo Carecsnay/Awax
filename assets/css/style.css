@@ -150,7 +150,7 @@ main .banner {
     cursor: pointer;
 }
 
-.banner .pointer.active {
+.banner .pointer.active, .pointer:hover {
     /*se tiver as 2 classes aplica os efeitos*/
     background-color: #B28756;
 }
@@ -268,13 +268,19 @@ main .banner {
     list-style: none;
 }
 
+.section-projects--filters ul {
+    
+}
+
 .section-projects--filters li {
+    text-align: center;
     display: inline-block;
+    margin-left: -3px;
     padding: 10px;
     text-transform: uppercase;
     font-size: 13px;
-    border-left: 2px solid #CCCCCC;
     color: #555555;
+    border-left: 2px solid #CCCCCC;
     border-bottom: 5px solid #EEEEEE;
     cursor: pointer;
 }
@@ -284,7 +290,7 @@ main .banner {
 }
 
 .section-projects--filters li:first-child {
-    border-left: 0;
+    border-left: none;
 }
 
 .section-projects--photos {
