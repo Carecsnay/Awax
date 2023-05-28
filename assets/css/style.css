@@ -268,10 +268,6 @@ main .banner {
     list-style: none;
 }
 
-.section-projects--filters ul {
-    
-}
-
 .section-projects--filters li {
     text-align: center;
     display: inline-block;
@@ -489,7 +485,7 @@ main .banner {
     margin-top:10px;
     font-size:13px;
     max-width:700px;
-    color:#555;
+    color:#555555;
     text-align:center;
     line-height:25px;
     margin-left:30px;
@@ -517,8 +513,8 @@ main .banner {
 }
 
 .section-companies {
-    border-top:1px solid #DDD;
-    border-bottom:1px solid #DDD;
+    border-top:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
 }
 .section-companies--area {
     display:flex;
@@ -534,7 +530,7 @@ main .banner {
 }
 .section-price--item {
     flex:1;
-    background-color: #FFF;
+    background-color: #FFFFFF;
     margin-right: 20px;
     padding:20px;
     text-align:center;
@@ -553,7 +549,7 @@ main .banner {
     margin-top:10px;
 }
 .section-price--item-period {
-    color:#999;
+    color:#999999;
     text-transform: uppercase;
     margin-bottom:20px;
 }
@@ -562,8 +558,8 @@ main .banner {
 }
 
 .premium {
-    background-color:#FFF !important;
-    border-top:1px solid #CCC;
+    background-color:#FFFFFF !important;
+    border-top:1px solid #CCCCCC;
 }
 .premium .sectionBody {
     max-width:initial;
@@ -589,7 +585,7 @@ main .banner {
     justify-content: center;
     align-items:center;
     max-width:1140px;
-    border-bottom:1px solid #CCC;
+    border-bottom:1px solid #CCCCCC;
     margin:auto;
     padding-bottom:40px;
 }
@@ -615,11 +611,11 @@ main .banner {
 }
 .section-premium--item div {
     flex:1;
-    color:#999;
+    color:#999999;
     line-height:20px;
 }
 .section-premium--item div h4 {
-    color:#000;
+    color:#000000;
     font-size:17px;
     font-weight:600;
 }
@@ -671,7 +667,7 @@ main .banner {
 .section-fact p {
     margin-top:10px;
     font-size:13px;
-    color:#999;
+    color:#999999;
 }
 
 .section-share {
@@ -679,8 +675,8 @@ main .banner {
     justify-content: center;
     align-items:center;
     padding:20px;
-    background-color:#FFF;
-    color:#999;
+    background-color:#FFFFFF;
+    color:#999999;
 }
 .section-share--legend {
     display:flex;
@@ -701,7 +697,7 @@ main .banner {
     width:30px;
     height:30px;
     border-radius:15px;
-    background-color:#CCC;
+    background-color:#CCCCCC;
     margin-right:5px;
     display:flex;
     justify-content: center;
@@ -738,7 +734,7 @@ main .banner {
     height:40px;
     border:0;
     background:transparent;
-    border-bottom:1px solid #CCC;
+    border-bottom:1px solid #CCCCCC;
     outline:0;
     margin-top:10px;
 }
@@ -751,4 +747,48 @@ main .banner {
 }
 .section-contact--split input:first-child {
     margin-right:20px;
+}
+
+.section-map {
+    background-image: url(../images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+}
+
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map--info {
+    width: calc(50% - 20px);
+    padding: 30px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+.section-map--info-item-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    background-color: #999999;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.section-map--info-item-img img {
+    width: 15px;
+    height: auto;
 }
