@@ -38,13 +38,9 @@ Este é um clone do projeto Awax, criado com o objetivo de aprimorar meus conhec
 - Animações suaves e transições para uma experiência de usuário agradável.
 
 ## 🔖 Layout
-<p> 
-  <h3 align="center">Layout Original Desktop</h3>
-  <img alt="Desing do Projeto" src=".github/LAYOUT_DESKTOP.jpg" width="100%">
-  <h3 align="center">Layout Original Mobile</h3>
-  <img alt="Desing do Projeto" src=".github/LAYOUT_MOBILE.jpg" width="100%">
-</p>
-
+  <p>
+    Você pode conferir os Layouts na pasta <b>.github</b>
+  </p>
 ---
 
 Todos os direitos reservados.
