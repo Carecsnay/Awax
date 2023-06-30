@@ -8,7 +8,7 @@
   <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-## 🔖 Deployment
+## 🌐 Deployment
 
 Você pode visualizar o deploy do projeto através desse link:
 <br>🟢[GitHub Pages](https://carecsnay.github.io/Awax/) 
